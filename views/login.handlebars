@@ -1,7 +1,15 @@
 <div class="container">
   <div class="row">
     <div class="col card">
-      
+
+{{!-- For some reason the form would not clear online --}}
+<script>
+  document.getElementById('username-login').reset();
+  document.getElementById('password-login').reset();
+  document.getElementById('username-signup').reset();
+  document.getElementById('password-signup').reset();
+</script>
+ 
         <h2 class="card-header">LOGIN</h2>
 <form class="card-body login-form">
         <div class="form-group">
